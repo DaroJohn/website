@@ -39,8 +39,8 @@
             "'></div>"
         );
       }
-      var beforeImg = container.find("img:last");
-      var afterImg = container.find("img:first");
+      var beforeImg = container.find("img:first");
+      var afterImg = container.find("img:last");
       container.append("<div class='rebeccagrace-handle'></div>");
       var slider = container.find(".rebeccagrace-handle");
       slider.append(
